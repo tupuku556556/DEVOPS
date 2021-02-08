@@ -1,0 +1,21 @@
+1)Login Ubuntu /Fedora
+#Installation of WebServer
+2)apt-get install nginx
+3)Edit the default page 
+vim /var/www/html/index.nginx-debian.html
+#Press I
+#Modify the Content 
+<h1>Welcome to MegaHorizon</h1>
+
+#ESC
+#:wq (Saving the File)
+
+4)sudo systemctl restart nginx
+#Restarting Nginx
+
+5)ip addr 
+#Know your IP
+
+6)Laptop http://172.31.95.201
+# Locally Accessing the Nginx Server
+Browse http://localhost
